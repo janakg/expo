@@ -1,6 +1,10 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
+
 #import <EXCore/EXExportedModule.h>
+#import <React/RCTBridgeModule.h>
+
+@class EXSecureStore;
 
 typedef NS_ENUM(NSInteger, EXSecureStoreAccessible) {
   EXSecureStoreAccessibleAfterFirstUnlock = 0,
@@ -12,5 +16,5 @@ typedef NS_ENUM(NSInteger, EXSecureStoreAccessible) {
   EXSecureStoreAccessibleWhenUnlockedThisDeviceOnly = 6
 };
 
-@interface EXSecureStore : EXExportedModule
+@interface EXSecureStore : EXExportedModule <RCTBridgeModule>
 @end
