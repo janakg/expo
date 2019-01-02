@@ -1,3 +1,3 @@
-import { NativeModules } from 'react-native';
-export default NativeModules.ExpoSecureStore;
+import { NativeModulesProxy } from 'expo-core';
+export default NativeModulesProxy.ExpoSecureStore;
 //# sourceMappingURL=ExpoSecureStore.js.map

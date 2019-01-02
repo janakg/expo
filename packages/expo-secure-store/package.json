@@ -30,7 +30,8 @@
     "preset": "expo-module-scripts"
   },
   "peerDependencies": {
-    "expo-core": "~2.0.0-rc.2"
+    "expo-core": "~2.0.0-rc.2",
+    "expo-errors": "1.0.0-rc.2"
   },
   "dependencies": {
     "invariant": "^2.2.2"
